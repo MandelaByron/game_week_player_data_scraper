@@ -1,0 +1,6 @@
+selenium==3.141.0
+pandas==1.2.4
+openpyxl==3.0.7
+lxml==4.6.3
+beautifulsoup4==4.11.1
+pycountry==22.3.5

@@ -1,0 +1,18 @@
+Installation:
+-- open the folder in VSCODE.
+-- open the terminal
+-- run "pip install -r requirements.txt"  this will install all the requirements.
+
+To run the script, run the main.py. Can be run by "python3 main.py" or simply press the "Run" button
+
+The data will be extracted to an excel file in this folder. You can set the excel name in the json file i.e "week.json"
+You can set the intervals in the same json file. 
+
+if you set it as 300-305, it will cover 300,301,302,303,304... i.e range(i,n). It'll cover i to (n-1).
+
+The chromedriver in this folder needs to be the same version as your current chrome version. I've already downloaded it.
+Incase you update you chrome, download the driver from here (https://chromedriver.chromium.org/downloads)
+
+Otherwise, I'm available to help you set this up in case you run into some issues. I'll also be available in case of anything.
+
+**Byron**
