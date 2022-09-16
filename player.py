@@ -12,7 +12,7 @@ options.add_argument("window-size=5,0")
 #content = None
 player_data_list=[]
 def player_browser(player_id):
-    with webdriver.Chrome('chromedriver.exe',options=options) as driver:
+    with webdriver.Chrome(r'C:\Users\HP\Dropbox\PC\Desktop\Sorare\chromedriver.exe',options=options) as driver:
         driver.get('https://www.soraredata.com/apiv2/players/info/' + player_id)
         content=driver.page_source
         get_player_data(content)

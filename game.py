@@ -11,7 +11,7 @@ options.add_argument("window-size=5,0")
 #content = None
 
 def driver(week):
-    with webdriver.Chrome('chromedriver.exe',options=options) as driver:
+    with webdriver.Chrome(r'C:\Users\HP\Dropbox\PC\Desktop\Sorare\chromedriver.exe',options=options) as driver:
         driver.get(f'https://www.soraredata.com/apiv2/SO5/userPerformersAll/all/false/{week}/sorare1010/all')
         global game_week 
         game_week=week
