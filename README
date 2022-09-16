@@ -13,6 +13,3 @@ if you set it as 300-305, it will cover 300,301,302,303,304... i.e range(i,n). I
 The chromedriver in this folder needs to be the same version as your current chrome version. I've already downloaded it.
 Incase you update you chrome, download the driver from here (https://chromedriver.chromium.org/downloads)
 
-Otherwise, I'm available to help you set this up in case you run into some issues. I'll also be available in case of anything.
-
-**Byron**
