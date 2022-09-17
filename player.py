@@ -37,6 +37,16 @@ def get_player_data(func):
     team = jsondata['team']['DisplayName']
 
     league = jsondata['team']["League"]
+    
+    try:
+        league_country = jsondata['team']['LeagueSlug']
+        lc=league_country.split('-')
+        lc=lc[-1:]
+        league_country=lc[0]
+        league_country=pycountry.countries.get(alpha_2=f'{league_country}')
+        league_country=league_country.name
+    except:
+        league_country =''
 
     country = jsondata['player']["Country"]
     country=pycountry.countries.get(alpha_2=f'{country}')
@@ -62,7 +72,7 @@ def get_player_data(func):
         'Player Name': name,
         'Date Of Birth': date_of_birth,
         'Team': team,
-        'League': league,
+        'League': league + " - " + league_country,
         'Country': country.name,
         'Position':position,
         'Contract End': contract_end,

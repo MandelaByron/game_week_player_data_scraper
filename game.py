@@ -61,8 +61,10 @@ def get_game_data(func):
         game_against = ''
         if player_team ==  home_team:
             game_against = result["away_display_name"]
+            home_away = 'Home'
         else:
             game_against = result["home_display_name"]   
+            home_away='Away'
         
         score =str(home_team_goals) + " - " +  str(away_team_goals)
         #print(game_against)
@@ -116,6 +118,7 @@ def get_game_data(func):
         penalty_conceded = result['stats']['PenaltyConceded']
         
         penalty_save = result['stats']['PenaltySave']
+        played_position = result['stats']['FullPosition']
         
         all_round_score = result['stats']['AllAroundScore']
         
@@ -128,7 +131,9 @@ def get_game_data(func):
             'Game Week':game_week,
             'Game_Against': game_against,
             'Score':score,
-            'Game_Stareted': started,
+            'Home/Away':home_away,
+            'Game_Started': started,
+            'Played Position':played_position,
             'Position': position,
             "Game_Time":game_time,
             'Came_From_Bench':came_from_bench,
