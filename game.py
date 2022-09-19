@@ -1,18 +1,37 @@
 from bs4 import BeautifulSoup
 import pandas as pd
 import json
-from selenium import webdriver
+#from selenium import webdriver
+from seleniumwire import webdriver
+import unicodedata
+def strip_accents(s):
+   return ''.join(c for c in unicodedata.normalize('NFD', s)
+                  if unicodedata.category(c) != 'Mn')
 
-options=webdriver.ChromeOptions()
+from webdriver_manager.chrome import ChromeDriverManager
 
-options.add_argument("window-size=5,0")
-#url = "25231422346618897466161184991066014710242912075232564827261144631247649555194"
-
-#content = None
 
 def driver(week):
-    with webdriver.Chrome(r'C:\Users\HP\Dropbox\PC\Desktop\Sorare\chromedriver.exe',options=options) as driver:
-        driver.get(f'https://www.soraredata.com/apiv2/SO5/userPerformersAll/all/false/{week}/sorare1010/all')
+    options=webdriver.ChromeOptions()
+
+    options.add_argument("window-size=5,0")
+    #url = "25231422346618897466161184991066014710242912075232564827261144631247649555194"
+    API_KEY = 'f0e5ad43c139245d1aed0027f9c7abb0'
+    #content = None
+    proxy_options = {
+        'proxy': {
+            'http': f'http://scraperapi:{API_KEY}@proxy-server.scraperapi.com:8001',
+            'https': f'http://scraperapi:{API_KEY}@proxy-server.scraperapi.com:8001',
+            'no_proxy': 'localhost,127.0.0.1'
+        }
+    }
+
+
+    browser = webdriver.Chrome(ChromeDriverManager().install(), 
+                                options=options, 
+                                seleniumwire_options=proxy_options)
+    with browser as driver:
+        browser.get(f'https://www.soraredata.com/apiv2/SO5/userPerformersAll/all/false/{week}/sorare1010/all')
         global game_week 
         game_week=week
         content=driver.page_source
@@ -118,18 +137,19 @@ def get_game_data(func):
         penalty_conceded = result['stats']['PenaltyConceded']
         
         penalty_save = result['stats']['PenaltySave']
+        
         played_position = result['stats']['FullPosition']
         
         all_round_score = result['stats']['AllAroundScore']
         
-        decisve = result['stats']['LevelGK']
+        decisve = result['stats']['Level']
         
         overal_score = result['stats']['SO5Score']
         
         items ={
             'Player Id': player_id,
             'Game Week':game_week,
-            'Game_Against': game_against,
+            'Game_Against': strip_accents(game_against),
             'Score':score,
             'Home/Away':home_away,
             'Game_Started': started,

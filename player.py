@@ -2,6 +2,9 @@ import pycountry
 import json
 from selenium import webdriver
 from bs4 import BeautifulSoup
+import datetime
+import unicodedata
+from league_country import league_country
 
 
 options=webdriver.ChromeOptions()
@@ -9,6 +12,11 @@ options=webdriver.ChromeOptions()
 options.add_argument("window-size=5,0")
 #url = "25231422346618897466161184991066014710242912075232564827261144631247649555194"
 
+def strip_accents(s):
+   return ''.join(c for c in unicodedata.normalize('NFD', s)
+                  if unicodedata.category(c) != 'Mn')
+   
+#print(strip_accents('Mijo Caktaš'))
 #content = None
 player_data_list=[]
 def player_browser(player_id):
@@ -39,12 +47,9 @@ def get_player_data(func):
     league = jsondata['team']["League"]
     
     try:
-        league_country = jsondata['team']['LeagueSlug']
-        lc=league_country.split('-')
-        lc=lc[-1:]
-        league_country=lc[0]
-        league_country=pycountry.countries.get(alpha_2=f'{league_country}')
-        league_country=league_country.name
+        slug = jsondata['team']['LeagueSlug']
+        league_country=league_country(slug)
+
     except:
         league_country =''
 
@@ -53,26 +58,44 @@ def get_player_data(func):
     #print(country.name)
 
     position =jsondata["position"]["main_position"]
+    if position == 'Defender':
+        position = 'D'
+    elif position == 'Goalkeeper':
+        position = 'G'
+    elif position == 'Forward':
+        position = 'F'
+    elif position == 'Midfielder':
+        position = 'M'
+    else:
+        pass
     try:
 
         contract_end=jsondata["contract_end"]
         #print(contract_end)
         n=contract_end.split('T')
         contract_end=n[0]
+        test_string =contract_end
+        test_string=test_string.replace('-','/')
+        contract_end=datetime.datetime.strptime(test_string,'%Y/%m/%d').strftime('%m/%d/%Y')
     except:
         contract_end='-'
 
     status = jsondata['player']["PlayingStatus"]
-
-    position_ranking = jsondata["position_ranking"]
-
-    position_ranking_overal= jsondata["overall_ranking"]
+    try:
+        position_ranking = jsondata["position_ranking"]
+    except:
+        position_ranking = 'N/A'
+    try:
+        position_ranking_overal= jsondata["overall_ranking"]
+    except:
+        position_ranking_overal ='N/A'
     
     items={
-        'Player Name': name,
+        'Player Name': strip_accents(name) ,
         'Date Of Birth': date_of_birth,
-        'Team': team,
-        'League': league + " - " + league_country,
+        'Team': strip_accents(team),
+        'League': strip_accents(league) + '-' + league_country,
+        
         'Country': country.name,
         'Position':position,
         'Contract End': contract_end,

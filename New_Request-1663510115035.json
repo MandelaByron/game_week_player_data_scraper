@@ -1,0 +1,576 @@
+{
+	"player": {
+		"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+		"FullName": "Lionel Andrés Messi Cuccittini",
+		"DateOfBirth": "24/6/1987",
+		"TeamId": "psg-paris",
+		"Age": 35,
+		"Slug": "lionel-andres-messi-cuccittini",
+		"DisplayName": "Lionel Messi",
+		"Position": "Forward",
+		"PictureUrl": "https://assets.sorare.com/seasonpicture/be3ba830-2fc1-49fb-b080-a02b47aa391a/picture/4f11a9aeaf6c7652ca03060742a8586a.png",
+		"TrimmedPictureUrl": "https://assets.sorare.com/seasonpicture/be3ba830-2fc1-49fb-b080-a02b47aa391a/picture/trimmed-41782562a6bbc0a3d98e660f5d9adb33.png",
+		"Height": 170,
+		"Weight": 72,
+		"BirthDate": "1987-06-24T00:00:00Z",
+		"Avatar": "https://assets.sorare.com/seasonpicture/be3ba830-2fc1-49fb-b080-a02b47aa391a/picture/avatar-a24467020f1bf31b37122d39dea517da.png",
+		"Licensed": true,
+		"SubscriptionsCount": 322394,
+		"PlayingStatus": "starter",
+		"SquaredPictureUrl": "https://assets.sorare.com/seasonpicture/be3ba830-2fc1-49fb-b080-a02b47aa391a/picture/squared-2ccd48a061c1c26230422b56881b19d7.png",
+		"NationalTeam": "argentina",
+		"MatchName": "L. Messi",
+		"JerseyNumber": 30,
+		"ColorLeft": "#1C3FBD",
+		"ColorRight": "#0F2988",
+		"InternationalTrip": false,
+		"Country": "ar",
+		"Legend": false,
+		"Sport": "sr_football"
+	},
+	"team": {
+		"TeamId": "psg-paris",
+		"DisplayName": "Paris Saint-Germain FC",
+		"League": "Ligue 1",
+		"Licensed": false,
+		"ClubId": null,
+		"Code": "PSG",
+		"City": null,
+		"Country": null,
+		"TeamName": null,
+		"PictureUrl": "https://assets.sorare.com/club/8d0bc975-3a87-4623-9086-e57545f8c6df/picture/0f64d74d87188e2ba7c4001ecbd6d1f0.png",
+		"LeagueSlug": "ligue-1-fr",
+		"EligiblePlayers": 32,
+		"International": false,
+		"ShortName": "PSG",
+		"ClubName": "PSG",
+		"AlternateLogo": "https://assets.sorare.com/club/8d0bc975-3a87-4623-9086-e57545f8c6df/picture/0f64d74d87188e2ba7c4001ecbd6d1f0.png",
+		"Sport": "sr_football"
+	},
+	"position": {
+		"player_id": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+		"gk_cards": 0,
+		"def_cards": 0,
+		"mid_cards": 0,
+		"fw_cards": 575,
+		"main_position": "Centre Striker",
+		"secondary_position": "Centre/Right Attacking Midfielder",
+		"third_position": "Centre/Right Striker"
+	},
+	"contract_end": "2023-06-30T00:00:00Z",
+	"cards": null,
+	"ongoingAuctions": null,
+	"endedAuctions": null,
+	"ongoingOffers": null,
+	"endedOffers": null,
+	"values": null,
+	"position_ranking": 1,
+	"overall_ranking": 2,
+	"newStats": null,
+	"lastStats": null,
+	"s05Median": 0,
+	"serialNumberValues": null,
+	"performance": {
+		"sd_score_last5": 0,
+		"sd_score_last20": 0
+	},
+	"price_history": {
+		"PlayerId": "",
+		"Scarcity": "",
+		"price_history": null,
+		"all_prices": null
+	},
+	"supply_and_averages": [
+		{
+			"card_supply": {
+				"player_id": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+				"scarcity": "LIMITED",
+				"season": 0,
+				"count": 486
+			},
+			"average": [
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "LIMITED",
+					"Period": 3,
+					"Average": 0.713,
+					"UsdAverage": 1054.12,
+					"EurAverage": 1054.61,
+					"GbpAverage": 922.66,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "LIMITED",
+					"Period": 7,
+					"Average": 0.687,
+					"UsdAverage": 1070.93,
+					"EurAverage": 1071.14,
+					"GbpAverage": 932.03,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "LIMITED",
+					"Period": 14,
+					"Average": 0.6855,
+					"UsdAverage": 1083.55,
+					"EurAverage": 1083.75,
+					"GbpAverage": 940.92,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "LIMITED",
+					"Period": 30,
+					"Average": 0.5833,
+					"UsdAverage": 932.24,
+					"EurAverage": 932.27,
+					"GbpAverage": 798.02,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				}
+			]
+		},
+		{
+			"card_supply": {
+				"player_id": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+				"scarcity": "RARE",
+				"season": 0,
+				"count": 82
+			},
+			"average": [
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "RARE",
+					"Period": 3,
+					"Average": 6.6,
+					"UsdAverage": 9755.99,
+					"EurAverage": 9796.12,
+					"GbpAverage": 8560.46,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "RARE",
+					"Period": 7,
+					"Average": 6.6,
+					"UsdAverage": 9755.99,
+					"EurAverage": 9796.12,
+					"GbpAverage": 8560.46,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "RARE",
+					"Period": 14,
+					"Average": 6.6,
+					"UsdAverage": 9755.99,
+					"EurAverage": 9796.12,
+					"GbpAverage": 8560.46,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "RARE",
+					"Period": 30,
+					"Average": 5.7205,
+					"UsdAverage": 9026.16,
+					"EurAverage": 9039.65,
+					"GbpAverage": 7741.35,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				}
+			]
+		},
+		{
+			"card_supply": {
+				"player_id": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+				"scarcity": "SUPER RARE",
+				"season": 0,
+				"count": 6
+			},
+			"average": [
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "SUPER RARE",
+					"Period": 3,
+					"Average": -1,
+					"UsdAverage": -1,
+					"EurAverage": -1,
+					"GbpAverage": -1,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "SUPER RARE",
+					"Period": 7,
+					"Average": -1,
+					"UsdAverage": -1,
+					"EurAverage": -1,
+					"GbpAverage": -1,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "SUPER RARE",
+					"Period": 14,
+					"Average": -1,
+					"UsdAverage": -1,
+					"EurAverage": -1,
+					"GbpAverage": -1,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "SUPER RARE",
+					"Period": 30,
+					"Average": -1,
+					"UsdAverage": -1,
+					"EurAverage": -1,
+					"GbpAverage": -1,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				}
+			]
+		},
+		{
+			"card_supply": {
+				"player_id": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+				"scarcity": "UNIQUE",
+				"season": 0,
+				"count": 1
+			},
+			"average": [
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "UNIQUE",
+					"Period": 3,
+					"Average": -1,
+					"UsdAverage": -1,
+					"EurAverage": -1,
+					"GbpAverage": -1,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "UNIQUE",
+					"Period": 7,
+					"Average": -1,
+					"UsdAverage": -1,
+					"EurAverage": -1,
+					"GbpAverage": -1,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "UNIQUE",
+					"Period": 14,
+					"Average": -1,
+					"UsdAverage": -1,
+					"EurAverage": -1,
+					"GbpAverage": -1,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				},
+				{
+					"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+					"Scarcity": "UNIQUE",
+					"Period": 30,
+					"Average": -1,
+					"UsdAverage": -1,
+					"EurAverage": -1,
+					"GbpAverage": -1,
+					"ValuationOrigin": "",
+					"ValuationOriginFiat": ""
+				}
+			]
+		}
+	],
+	"selling_ranges": null,
+	"averages": {
+		"gms_5": 5,
+		"gms_15": 14,
+		"gms_40": 36,
+		"avg_5": 88.74,
+		"avg_15": 80.36,
+		"avg_40": 75.75,
+		"aa_5": 30.38,
+		"aa_15": 27.21,
+		"aa_40": 23.9,
+		"da_5": 61,
+		"da_15": 56.07,
+		"da_40": 53.47,
+		"newAvg5": 88.74,
+		"newAvg15": 80.36,
+		"newAvg40": 75.75,
+		"newDa5": 61,
+		"newDa15": 56.07,
+		"newDa40": 53.47,
+		"newAA5": 30.38,
+		"newAA15": 27.21,
+		"newAA40": 23.9,
+		"s5Avg": 79,
+		"s15Avg": 76,
+		"s5Apps": 5,
+		"s15Apps": 14
+	},
+	"injury": {
+		"player_id": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+		"type": "none",
+		"return": "",
+		"description": ""
+	},
+	"availabilityStatus": {
+		"playerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+		"status": "Available",
+		"origins": "Default",
+		"reliabilityScore": 100,
+		"until": null,
+		"updatedAt": "2022-09-18T10:27:20Z",
+		"description": "",
+		"sources": ""
+	},
+	"best_market_prices": {
+		"player_id": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+		"limited_best_price": {
+			"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+			"Scarcity": "LIMITED",
+			"Price": 0.726,
+			"PriceUsd": 1042.3037,
+			"PriceEur": 1040.6339,
+			"PriceGbp": 912.4949
+		},
+		"rare_best_price": {
+			"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+			"Scarcity": "RARE",
+			"Price": 6.75,
+			"PriceUsd": 9690.84,
+			"PriceEur": 9675.315,
+			"PriceGbp": 8483.94
+		},
+		"super_rare_best_price": {
+			"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+			"Scarcity": "SUPER RARE",
+			"Price": 30,
+			"PriceUsd": 43070.4,
+			"PriceEur": 43001.4,
+			"PriceGbp": 37706.4
+		},
+		"unique_best_price": {
+			"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+			"Scarcity": "UNIQUE",
+			"Price": -1,
+			"PriceUsd": -1639.62,
+			"PriceEur": -1645.48,
+			"PriceGbp": -1418.07
+		}
+	},
+	"valuations": {
+		"COMMON": {
+			"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+			"Scarcity": "COMMON",
+			"Period": 0,
+			"Average": 0,
+			"UsdAverage": 0,
+			"EurAverage": 0,
+			"GbpAverage": 0,
+			"ValuationOrigin": "common_card",
+			"ValuationOriginFiat": ""
+		},
+		"LIMITED": {
+			"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+			"Scarcity": "LIMITED",
+			"Period": 0,
+			"Average": 0.713,
+			"UsdAverage": 1042.3,
+			"EurAverage": 1040.63,
+			"GbpAverage": 912.49,
+			"ValuationOrigin": "3d",
+			"ValuationOriginFiat": "bmp"
+		},
+		"RARE": {
+			"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+			"Scarcity": "RARE",
+			"Period": 0,
+			"Average": 6.6,
+			"UsdAverage": 9690.84,
+			"EurAverage": 9675.32,
+			"GbpAverage": 8483.94,
+			"ValuationOrigin": "3d",
+			"ValuationOriginFiat": "bmp"
+		},
+		"SUPER RARE": {
+			"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+			"Scarcity": "SUPER RARE",
+			"Period": 0,
+			"Average": 11.888,
+			"UsdAverage": 24089.84,
+			"EurAverage": 22806.65,
+			"GbpAverage": 19358.89,
+			"ValuationOrigin": "last_sale",
+			"ValuationOriginFiat": "last_sale"
+		},
+		"UNIQUE": {
+			"PlayerId": "25231422346618897466161184991066014710242912075232564827261144631247649555194",
+			"Scarcity": "UNIQUE",
+			"Period": 0,
+			"Average": 79.7501,
+			"UsdAverage": 258482.04,
+			"EurAverage": 234956.55,
+			"GbpAverage": 195859.07,
+			"ValuationOrigin": "last_sale",
+			"ValuationOriginFiat": "last_sale"
+		}
+	},
+	"price_info": {
+		"eur": 1436.6,
+		"usd": 1438.64,
+		"gbp": 1257.73,
+		"eth": 1
+	},
+	"u23_eligibility_end": null,
+	"next_game": {
+		"game": {
+			"GameId": "OLPSG1663526700",
+			"GameTime": "2022-09-18T18:45:00Z",
+			"AwayTeamId": "psg-paris",
+			"HomeTeamId": "olympique-lyonnais-lyon",
+			"HomeGoals": 0,
+			"AwayGoals": 0,
+			"HomeCode": "",
+			"AwayCode": "",
+			"Status": "scheduled",
+			"CompDisplayName": "Ligue 1",
+			"CompSlug": "ligue-1-fr",
+			"TimeMin": 0,
+			"HasLineups": false,
+			"Period": 0,
+			"FormationHome": "",
+			"FormationAway": "",
+			"LastUpdate": "1970-01-01T00:00:00Z"
+		},
+		"home_team": "Olympique Lyonnais",
+		"home_code": "OL",
+		"home_team_id": "olympique-lyonnais-lyon",
+		"away_team": "PSG",
+		"away_code": "PSG",
+		"away_team_id": "psg-paris",
+		"home_team_logo": "https://assets.sorare.com/club/42b054fb-1ba3-4547-857b-97b3f229abc7/picture/dbd68ac96fe0834a3086dee3a2cbda9c.png",
+		"away_team_logo": "https://assets.sorare.com/club/8d0bc975-3a87-4623-9086-e57545f8c6df/picture/0f64d74d87188e2ba7c4001ecbd6d1f0.png",
+		"has_lineups": "",
+		"international": false,
+		"eligible": 0,
+		"gwNumber": 0,
+		"lineups": false,
+		"ready": false,
+		"favorite": false
+	},
+	"baseball_season_stats": {
+		"playerId": "",
+		"season": 0,
+		"battingAverage": 0,
+		"inningsPitched": 0,
+		"strikeout": 0,
+		"hitAllowed": 0,
+		"hit": 0,
+		"single": 0,
+		"double": 0,
+		"triple": 0,
+		"homeRun": 0,
+		"hbp": 0,
+		"hbpIssued": 0,
+		"walk": 0,
+		"earnedRun": 0,
+		"run": 0,
+		"rbi": 0,
+		"stolenBase": 0,
+		"win": 0,
+		"loss": 0,
+		"save": 0,
+		"hold": 0,
+		"caughtStealing": 0,
+		"battingStrikeout": 0,
+		"walkAllowed": 0,
+		"atBats": 0,
+		"era": 0,
+		"k9": 0,
+		"whip": 0,
+		"startHitting": 0,
+		"startPitching": 0,
+		"gamesHitting": 0,
+		"gamesPitching": 0,
+		"obp": 0,
+		"slugging": 0,
+		"fip": 0,
+		"woba": 0,
+		"plateAppearances": 0,
+		"apg": 0,
+		"homeRunAllowed": 0,
+		"singleAllowed": 0,
+		"doubleAllowed": 0,
+		"tripleAllowed": 0,
+		"score": 0
+	},
+	"baseball_player_details": {
+		"playerId": "",
+		"throwHand": "",
+		"batHand": "",
+		"lineupPositionR": 0,
+		"lineupPositionL": 0
+	},
+	"baseball_position": "",
+	"next_baseball_game": {
+		"game": {
+			"GameId": "",
+			"GameTime": null,
+			"AwayTeamId": "",
+			"HomeTeamId": "",
+			"HomeScore": 0,
+			"AwayScore": 0,
+			"HomeCode": "",
+			"AwayCode": "",
+			"Status": "",
+			"CompDisplayName": "",
+			"CompSlug": "",
+			"HasLineups": false,
+			"ProbablePitcherHome": "",
+			"ProbablePitcherAway": "",
+			"StartingPitcherHome": "",
+			"StartingPitcherAway": "",
+			"LiveDetails": {
+				"balls": 0,
+				"strikes": 0,
+				"outs": 0,
+				"inning": 0,
+				"half": "",
+				"atBat": "",
+				"pitching": "",
+				"lineupPosition": 0,
+				"runners": null
+			}
+		},
+		"home_team": "",
+		"home_code": "",
+		"home_team_id": "",
+		"away_team": "",
+		"away_code": "",
+		"away_team_id": "",
+		"home_team_logo": "",
+		"away_team_logo": "",
+		"has_lineups": "",
+		"gwNumber": 0
+	},
+	"next_projected_starts": null
+}
