@@ -40,9 +40,8 @@ print(len(target))
 #game_data
 final_data=[]
 player_data_list=[]
-#f0e5ad43c139245d1aed0027f9c7abb0
-#40f5483a4074105e8d2304f8bf15e1dd
-API_KEY = 'f0e5ad43c139245d1aed0027f9c7abb0'
+
+API_KEY = ''
 options=webdriver.ChromeOptions()
 
 options.add_argument("window-size=5,0")
